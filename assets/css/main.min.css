@@ -2,9 +2,11 @@
   Theme: Main
   Description: Main theme for the website
 */
+#root { height: 100vh; width: 100%; }
 html { margin: 0px; height: 100vh; width: 100%; }
 body { min-height: 100vh; width: 100%; }
-#root { height: 100vh; width: 100%; }
+
+.css-1ljmx27 { display: none !important; }
 
 /*
   Theme: HightlightJS Default
