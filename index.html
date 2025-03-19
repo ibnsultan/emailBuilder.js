@@ -3,14 +3,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/assest/css/highlight.min.css" />
+    <link rel="stylesheet" href="/assets/css/main.min.css" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.png" />
     <meta name="viewport" content="width=900" />
     <meta name="description" content="EmailBuilder.js interactive playground. Brought to you by Waypoint." />
     <title>EmailBuilder.js &mdash; Free and Open Source Template Builder</title>
-    <script type="module" crossorigin src="/assest/js/main.min.js"></script>
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      const FormLayoutDesign = {
+        root: {
+          type: "EmailLayout",
+          data: {
+            backdropColor: "#F5F5F5",
+            canvasColor: "#FFFFFF",
+            textColor: "#262626",
+            fontFamily: "MODERN_SANS",
+            childrenIds: []
+          }
+        }
+      };
+    </script>
+    <script type="module" id="mainJs" crossorigin src="/assets/js/main.min.js"></script>
+    <script type="module" id="builderJs" crossorigin src="/assets/js/builder.js"></script>
   </body>
 </html>
